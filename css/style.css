@@ -49,22 +49,44 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 30px 0;
 }
 
-.FFA {
-  font-size: 400px;
-  line-height: 250pt
+.ffa {
+  font-size: 220px ;
+  line-height: 150pt;
+}
+
+.nav-logo {
+background: rgba(255, 0, 0, 0.4);
+  opacity: 0.85;
+}
+
+.presentation{
+line-height: 18pt;
+color: white;
+padding-left: 8px !important;
+padding-right: 5px !important;
+}
+
+.canvas-logo-xg {
+  color: white !important;
+  font-family: Impact, Charcoal, sans-serif;
+  line-height: 80pt;
+}
+
+.ffa-xg {
+  font-size: 150px ;
+  line-height: 80pt;
 }
 
 .canvas-logo {
-  background: rgba(255, 0, 0, 0.5);
+  background: rgba(255, 0, 0, 0.4);
   opacity: 0.85;
-  font-size: 220px;
+  font-size: 140px;
   color: white;
   font-family: Impact, Charcoal, sans-serif;
-  z-index: 10;
-  position: fixed;
-  left:0;
-  top: 15px; 
-  line-height: 135pt;
+  line-height: 80pt;
+  height: 100%;
+  width: 100%;
+  padding: 0;
 }
 .cont-canvas-buttons:hover {
   color:rgba(255, 0, 0, 1) !important;
@@ -85,9 +107,22 @@ h1, h2, h3, h4, h5, h6 {
   top: 50%; 
 }
 
+body.body-black {
+  
+}
+
+.body-white {
+   background: rgba(255, 255, 255, 1);
+}
+
 .proy-buttons {
   
    mix-blend-mode: difference !important;
+}
+
+.nav-top {
+  color: white;
+ color:rgba(255, 0, 0, 0.2);
 }
 
 .cont-canvas-buttons {
@@ -120,8 +155,12 @@ color: rgba(250, 126, 10, 1);
 font-size: 30px;
 }
 
+.menu-text {
+color: white !important;
+}
+
 .logoFFA {
-  color: #212121;
+  color: white;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 30px;
