@@ -27,10 +27,10 @@
 
 		if ( !isMobile.any() ) {
 			$('.js-fullheight').css('height', $(window).height());
-			$('.js-fullwidth').css('width', $(window).width());
+			//$('.js-fullwidth').css('width', $('.col-lg-10').width());
 			$(window).resize(function(){
 				$('.js-fullheight').css('height', $(window).height());
-				$('.js-fullwidth').css('width', $(window).width());
+				//$('.js-fullwidth').css('width', $('.col-lg-10').width());
 			});
 		}
 
